@@ -20,7 +20,7 @@ function App() {
 
   useEffect(()=> {
     async function fetchApi (){
-      const response = await fetch(`${API_URL}&s=${encodeURI(searchedText)}&page=${currentPage}&type=movie`)
+      const response = await fetch(`${API_URL}&s=${encodeURI(searchedText)}&page=${currentPage}`)
           const responsejson = await response.json()
           console.log(responsejson)
           setMovies(responsejson.Search)
