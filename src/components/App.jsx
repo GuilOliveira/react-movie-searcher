@@ -6,7 +6,7 @@ import PageNavigation from './PageNavigation';
 import key from '../api/apikey';
 import getSearchButtons from '../utils/getSearchButtons';
 
-const API_URL = `http://www.omdbapi.com/?apikey=${key()}`
+const API_URL = `https://www.omdbapi.com/?apikey=${key()}`
 console.log(API_URL)
 
 function App() {
