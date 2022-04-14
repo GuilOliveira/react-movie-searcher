@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# React Movie Searcher
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Movie Searcher is a Single Page Application uusing React to search movies and series with OMDB api.
+<img src="https://cdn.discordapp.com/attachments/745097868846563380/964294191716909136/unknown.png" align="center"></img>
+
 
 ## Available Scripts
 
